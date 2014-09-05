@@ -1,0 +1,18 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.alert {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+td {
+  vertical-align: middle !important
+}
+
+th {
+  vertical-align: middle !important
+}

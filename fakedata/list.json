@@ -1,0 +1,39 @@
+[
+  { 
+    "element": 0,
+    "name": "Metapod",
+    "description": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+    "image": "pic/item0.png",
+    "price": 10
+  },
+  { 
+    "name": "Ivysaur",
+    "description": "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower.",
+    "image": "pic/item1.png",
+    "price": 13
+  },
+  {
+    "name": "Charmander",
+    "description": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+    "image": "pic/item2.png",
+    "price": 20
+  },
+  { 
+    "name": "Squirtle",
+    "description": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+    "image": "pic/item3.png",
+    "price": 33
+  },
+  { 
+    "name": "Butterfree",
+    "description": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+    "image": "pic/item4.png",
+    "price": 7
+  },
+  { 
+    "name": "Blastoise",
+    "description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+    "image": "pic/item5.png",
+    "price": 74
+  }
+]
