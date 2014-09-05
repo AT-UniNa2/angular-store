@@ -47,7 +47,7 @@
             <h4 class="modal-title">Check Out</h4>
           </div>
           <div class="modal-body">
-            <p>You are buying {{ ctrl.itemsToBuy.length }}</p>
+            <p>You are buying <ng-pluralize count="ctrl.itemsToBuy.length" when="{'one':'{} item','other':'{} items'}"></ng-pluralize></p>
             <h4>Are you sure?</h4>
           </div>
           <div class="modal-footer">
