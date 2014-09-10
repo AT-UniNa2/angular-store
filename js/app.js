@@ -17,7 +17,7 @@
     //router.otherwise({redirectTo: '/presentation'});
   }]);
   
-  app.controller('TokenController', ['$rootScope', '$location', function(scope, location) {
+  app.controller('TokenController', ['$rootScope', '$location', '$http', function(scope, location, http) {
     var self = this;
     this.token = null;
     
@@ -31,9 +31,11 @@
       
       if(self.token) {
         location.path('/dashboard');
+        http.defaults.headers.common.Authorization = self.token;
       }
       else {
         location.path('/presentation');
+        delete http.defaults.headers.common.Authorization;
       }
     });
     
